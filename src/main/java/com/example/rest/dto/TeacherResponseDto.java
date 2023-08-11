@@ -1,0 +1,15 @@
+package com.example.rest.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class TeacherResponseDto {
+
+    private String teacherName;
+
+    private String courseName;
+}
